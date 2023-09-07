@@ -10,7 +10,7 @@ public void multiply(int a) {
 
 	public static void main(String[] args) {
 		Table t=new Table();
-		t.multiply(5);
+		t.multiply(10);
 	}
 
 }
