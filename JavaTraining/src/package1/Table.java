@@ -1,5 +1,7 @@
 package package1;
 
+import java.util.Scanner;
+
 public class Table {
 	
 public void multiply(int a) {
@@ -9,8 +11,11 @@ public void multiply(int a) {
 }
 
 	public static void main(String[] args) {
-		Table t=new Table();
-		t.multiply(10);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter the number: ");
+			int a =sc.nextInt();
+			Table t=new Table();
+			t.multiply(a);
+		}
 	}
-
 }
