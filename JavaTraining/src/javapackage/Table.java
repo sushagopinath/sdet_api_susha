@@ -1,6 +1,7 @@
-package package1;
+package javapackage;
 
 import java.util.Scanner;
+
 
 public class Table {
 	
